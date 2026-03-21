@@ -1,0 +1,4 @@
+repository "FMI_Course/FMI_Game_Course@4600543@cloud"
+  path "/"
+    br "/main"
+    co "/main"
