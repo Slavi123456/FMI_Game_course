@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 163154411421458714}
   - component: {fileID: 7627466339210245461}
   - component: {fileID: 3142497617807116343}
-  - component: {fileID: 3468914030584516386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,33 +236,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3, y: 1}
   m_EdgeRadius: 0
---- !u!50 &3468914030584516386
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 192818553368839958, guid: c66be601906d89e4c9ba19e37e30c9cb, type: 3}
-  m_PrefabInstance: {fileID: 5559826207412512728}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2734182937222239284}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &6319455615492423134
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1220867333724318875}
   - component: {fileID: 7980985376673729761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StaticPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +349,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tilemap
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4661309277152153978, guid: c66be601906d89e4c9ba19e37e30c9cb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

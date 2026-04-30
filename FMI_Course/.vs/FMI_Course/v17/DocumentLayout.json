@@ -1,13 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\FMI_Course\\",
+  "WorkspaceRootPath": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|c:\\proekti\\uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u043D\u0430\u0438\u0433\u0440\u0438\\fmi_course\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|c:\\proekti\\uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u043D\u0430\u0438\u0433\u0440\u0438\\rep\\fmi_course\\assets\\scripts\\pickablescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickablescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|c:\\proekti\\uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u043D\u0430\u0438\u0433\u0440\u0438\\rep\\fmi_course\\assets\\scripts\\fallingplatformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fallingplatformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\FMI_Course\\Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\assets\\scripts\\movingplatformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movingplatformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\assets\\scripts\\maincamerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612397B9-9FE9-FAD6-63D8-94D42540F3C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maincamerascript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,25 +42,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UniversalAdditionalCameraData.cs",
-              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\FMI_Course\\Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs",
-              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\FMI_Course\\Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PickableScript.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\PickableScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PickableScript.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\PickableScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PickableScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T21:17:31.198Z"
+              "WhenOpened": "2026-03-27T16:38:48.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "FallingPlatformScript.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\FallingPlatformScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FallingPlatformScript.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\FallingPlatformScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FallingPlatformScript.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T15:45:01.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovingPlatformScript.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\MovingPlatformScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MovingPlatformScript.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\MovingPlatformScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MovingPlatformScript.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T14:57:24.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainCameraScript.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\MainCameraScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainCameraScript.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\MainCameraScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainCameraScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T13:18:39.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UniversalAdditionalCameraData.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\UniversalAdditionalCameraData.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T21:17:31.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerScript.cs",
-              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\FMI_Course\\Assets\\Scripts\\PlayerScript.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScript.cs",
-              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\FMI_Course\\Assets\\Scripts\\PlayerScript.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\FMI_Course\\Assets\\Scripts\\PlayerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerScript.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAkwGkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T15:20:49.305Z",
               "EditorCaption": ""
