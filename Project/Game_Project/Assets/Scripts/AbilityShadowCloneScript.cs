@@ -1,7 +1,9 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using Unity.VisualScripting;
+using UnityEngine.Events;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,30 +13,35 @@ public class AbilityShadowCloneScript : MonoBehaviour
     private Queue<GameObject> pointsVisual = new Queue<GameObject>();
 
     private float pointTimer = 0f;
-    private float abilityDurationTimer = 0.0f;
     
     public float pointMaxTimer = 0.3f;
     public float maxDuration = 6f;
     public float speed;
     public GameObject pointPrefab;
+    public UnityAction onFinished;
+
+    private void Start()
+    {
+        StartCoroutine(AbilityDuration());
+    }
     void Update()
     {
         handleTrajectoryTimer();
-        handleAbilityDuration();
+        //handleAbilityDuration();
         checkForPoints();
     }
+    IEnumerator AbilityDuration()
+    { 
+        yield return new WaitForSeconds(maxDuration);
 
-    void handleAbilityDuration() {
-        if (maxDuration <= abilityDurationTimer)
+        foreach (GameObject point in pointsVisual)
         {
-            abilityDurationTimer = 0.0f;
-            foreach(GameObject point in pointsVisual) { 
-                Destroy(point);
-            }
-            mousePathPoints.Clear();
-            Destroy(gameObject);
+            Destroy(point);
         }
-        abilityDurationTimer += Time.deltaTime;
+        mousePathPoints.Clear();
+        Debug.Log("Shadow Clone ability deactivated");
+        onFinished?.Invoke();
+        Destroy(gameObject);
     }
     void handleTrajectoryTimer()
     {
@@ -45,7 +52,6 @@ public class AbilityShadowCloneScript : MonoBehaviour
             Vector3 worldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
             worldPos.z = 0f;
 
-            //Instantiate(shadowPrefab, worldPos, Quaternion.identity);
             mousePathPoints.Enqueue(new Vector2(worldPos.x, worldPos.y));
 
 

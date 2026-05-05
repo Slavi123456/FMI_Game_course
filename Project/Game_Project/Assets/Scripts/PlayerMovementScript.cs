@@ -17,4 +17,7 @@ public class PlayerMovementScript : MonoBehaviour
         rigidbody.linearVelocity = direction * movementSpeed;
         //Debug.Log(direction);
     }
+    public void stopMovement() {
+        rigidbody.linearVelocity = Vector2.zero;
+    }
 }

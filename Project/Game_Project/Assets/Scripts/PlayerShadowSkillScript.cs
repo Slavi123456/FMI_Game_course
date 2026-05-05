@@ -17,9 +17,18 @@ public class PlayerShadowSkillScript : MonoBehaviour
             Vector2 mouseScreenPos = Mouse.current.position.ReadValue();
             Vector3 worldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
             worldPos.z = 0f;
-
-            Instantiate(shadowPrefab, worldPos, Quaternion.identity);
+            
+            GameObject clone = Instantiate(shadowPrefab, worldPos, Quaternion.identity);
+            AbilityShadowCloneScript abilityScript = clone.GetComponent<AbilityShadowCloneScript>();
+            abilityScript.onFinished = () => {
+                player.SetState(Player.PlayerState.Normal);
+            };
+            
+            StartCoroutine(RunAbility(player));
+            return;
         }
+        Debug.Log("Shadow clone ability is not ready");
+        player.SetState(Player.PlayerState.Normal);
     }
 
     IEnumerator RunAbility(Player player) { 
@@ -27,6 +36,5 @@ public class PlayerShadowSkillScript : MonoBehaviour
 
         Debug.Log("Ability is active");
         canBeActivated = true;
-        player.SetState(Player.PlayerState.Normal);
     }
 }

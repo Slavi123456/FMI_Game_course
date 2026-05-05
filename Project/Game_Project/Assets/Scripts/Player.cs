@@ -27,12 +27,13 @@ public class Player : MonoBehaviour
         }
         if (button.action.WasPressedThisFrame() && state == PlayerState.Normal)
         {
+            move.stopMovement();
             state = PlayerState.UsingAbility;
             skill.handleShadowClone(this);
             return;
         }
-        else if (state == PlayerState.Normal) 
-        { 
+        else if (state == PlayerState.Normal)
+        {
             move.handleMovement();
         }
     }
