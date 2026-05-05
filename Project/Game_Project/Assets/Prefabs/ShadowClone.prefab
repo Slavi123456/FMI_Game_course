@@ -104,6 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad4cf128c9cb8dc49a47470f21561d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  pointMaxTimer: 0.3
+  maxDuration: 6
   speed: 2
-  abilityTimer: 3
   pointPrefab: {fileID: 2567578427124057046, guid: baef822f7bf71fb44a6fa633f5b739d7, type: 3}

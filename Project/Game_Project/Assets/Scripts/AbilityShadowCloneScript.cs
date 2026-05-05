@@ -10,23 +10,31 @@ public class AbilityShadowCloneScript : MonoBehaviour
     private Queue<Vector2> mousePathPoints = new Queue<Vector2>();
     private Queue<GameObject> pointsVisual = new Queue<GameObject>();
 
-    private float pointMaxTimer = 0.3f;
     private float pointTimer = 0f;
-    private float abilityTimer = 0.0f;
+    private float abilityDurationTimer = 0.0f;
     
-    public float maxTimer;
+    public float pointMaxTimer = 0.3f;
+    public float maxDuration = 6f;
     public float speed;
     public GameObject pointPrefab;
-    private void Start()
-    {
-       
-    }
-    // Update is called once per frame
     void Update()
     {
         handleTrajectoryTimer();
+        handleAbilityDuration();
         checkForPoints();
-        //timer for cooldown
+    }
+
+    void handleAbilityDuration() {
+        if (maxDuration <= abilityDurationTimer)
+        {
+            abilityDurationTimer = 0.0f;
+            foreach(GameObject point in pointsVisual) { 
+                Destroy(point);
+            }
+            mousePathPoints.Clear();
+            Destroy(gameObject);
+        }
+        abilityDurationTimer += Time.deltaTime;
     }
     void handleTrajectoryTimer()
     {
