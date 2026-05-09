@@ -6,32 +6,44 @@ using Unity.VisualScripting;
 using UnityEngine.Events;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Runtime.CompilerServices;
 
 public class AbilityShadowCloneScript : MonoBehaviour
 {
     private Queue<Vector2> mousePathPoints = new Queue<Vector2>();
     private Queue<GameObject> pointsVisual = new Queue<GameObject>();
+    private HashSet<Enemy> recentAttackedEnemies = new HashSet<Enemy>();
 
+    private CircleCollider2D circleCollider;
     private float pointTimer = 0f;
-    
+    private enum cloneState { 
+        FollowingPath,
+        Attacking
+    };
+
     public float pointMaxTimer = 0.3f;
     public float maxDuration = 6f;
     public float speed;
+    public float enemyRemoveTaimer = 0.5f;
     public GameObject pointPrefab;
     public UnityAction onFinished;
 
+    int enemyLayerMask;
     private void Start()
     {
+        enemyLayerMask = LayerMask.GetMask("Enemy");
         StartCoroutine(AbilityDuration());
+        circleCollider = GetComponent<CircleCollider2D>();
     }
     void Update()
     {
         handleTrajectoryTimer();
         //handleAbilityDuration();
         checkForPoints();
+        checkForEnemies();
     }
     IEnumerator AbilityDuration()
-    { 
+    {
         yield return new WaitForSeconds(maxDuration);
 
         foreach (GameObject point in pointsVisual)
@@ -43,7 +55,7 @@ public class AbilityShadowCloneScript : MonoBehaviour
         onFinished?.Invoke();
         Destroy(gameObject);
     }
-    void handleTrajectoryTimer()
+    private  void handleTrajectoryTimer()
     {
         if (pointMaxTimer <= pointTimer)
         {
@@ -61,7 +73,8 @@ public class AbilityShadowCloneScript : MonoBehaviour
         }
         pointTimer += Time.deltaTime;
     }
-    void checkForPoints() {
+    private  void checkForPoints()
+    {
         if (mousePathPoints.Count > 0)
         {
             Vector2 target = mousePathPoints.Peek();
@@ -80,5 +93,26 @@ public class AbilityShadowCloneScript : MonoBehaviour
                 Destroy(point);
             }
         }
+    }
+
+    
+    private void checkForEnemies() {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, circleCollider.radius, enemyLayerMask);
+        foreach (Collider2D hit in hits) {
+            //Debug.Log("hit: " + hit);
+            Enemy enemy = hit.GetComponent<Enemy>();
+            if (enemy == null) return;
+            if (recentAttackedEnemies.Contains(enemy)) return;
+            recentAttackedEnemies.Add(enemy);
+            Debug.Log("Enemy: " + enemy);
+
+            StartCoroutine(RemoveEnemy(enemy));
+        }
+    }
+
+    private IEnumerator RemoveEnemy(Enemy enemy) { 
+        yield return new WaitForSeconds(enemyRemoveTaimer);
+
+        recentAttackedEnemies.Remove(enemy);
     }
 }
