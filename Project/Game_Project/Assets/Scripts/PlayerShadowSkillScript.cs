@@ -13,13 +13,14 @@ public class PlayerShadowSkillScript : MonoBehaviour
         if (canBeActivated)
         {
             canBeActivated = false;
-            Debug.Log("Activate shadow clone");
+            //Debug.Log("Activate shadow clone");
             Vector2 mouseScreenPos = Mouse.current.position.ReadValue();
             Vector3 worldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
             worldPos.z = 0f;
             
             GameObject clone = Instantiate(shadowPrefab, worldPos, Quaternion.identity);
             AbilityShadowCloneScript abilityScript = clone.GetComponent<AbilityShadowCloneScript>();
+            abilityScript.SetPlayer(player);
             abilityScript.onFinished = () => {
                 player.SetState(Player.PlayerState.Normal);
             };

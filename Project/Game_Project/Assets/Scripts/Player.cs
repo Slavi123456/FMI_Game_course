@@ -14,9 +14,12 @@ public class Player : MonoBehaviour
     private PlayerShadowSkillScript skill;
     private PlayerState state;
     private bool isInvisible = false;
+    private int level = 0;
 
     public int health = 4;
     public float invisibleTaimer = 2.0f;
+    public int currentXP = 0;
+    public int currentXPthreshold = 20;
     void Start()
     {
         move = GetComponent<PlayerMovementScript>();
@@ -72,4 +75,13 @@ public class Player : MonoBehaviour
         isInvisible = false;
     }
 
+    public void AddXP(int xp) {
+        this.currentXP += xp;
+        Debug.Log($"Player current xp: {currentXP}");
+
+        if (this.currentXP >= this.currentXPthreshold) { 
+            this.level += 1;
+            Debug.Log($"Player LEVEL UP: {this.level}");
+        }
+    }
 }

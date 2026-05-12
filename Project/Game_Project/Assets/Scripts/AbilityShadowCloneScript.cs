@@ -22,7 +22,9 @@ public class AbilityShadowCloneScript : MonoBehaviour
     private Enemy currAttackedEnemy = null;
     private float distClosestEnemy = Mathf.Infinity;
     private CloneState cloneState;
-    private enum CloneState { 
+    private Player player = null;
+
+    private enum CloneState {
         FollowingPath,
         Attacking
     };
@@ -47,7 +49,7 @@ public class AbilityShadowCloneScript : MonoBehaviour
         StartCoroutine(AbilityDuration());
 
     }
-    void Update()
+    private void Update()
     {
         if (cloneState != CloneState.Attacking)
         {
@@ -58,14 +60,14 @@ public class AbilityShadowCloneScript : MonoBehaviour
         else {
             attackEnemy();
         }
-        
+
     }
-    IEnumerator AbilityDuration()
+    private IEnumerator AbilityDuration()
     {
         yield return new WaitForSeconds(maxDuration);
 
         clearTrajectoryPoints();
-        Debug.Log("Shadow Clone ability deactivated");
+        //Debug.Log("Shadow Clone ability deactivated");
         onFinished?.Invoke();
         Destroy(gameObject);
     }
@@ -76,7 +78,7 @@ public class AbilityShadowCloneScript : MonoBehaviour
         }
         mousePathPoints.Clear();
     }
-    private  void handleTrajectoryTimer()
+    private void handleTrajectoryTimer()
     {
         if (pointMaxTimer <= pointTimer)
         {
@@ -94,7 +96,7 @@ public class AbilityShadowCloneScript : MonoBehaviour
         }
         pointTimer += Time.deltaTime;
     }
-    private  void checkForPoints()
+    private void checkForPoints()
     {
         if (mousePathPoints.Count > 0)
         {
@@ -142,12 +144,13 @@ public class AbilityShadowCloneScript : MonoBehaviour
     }
     private void attackEnemy() {
         canAttack = false;
-        moveShadowCloneToPoint(currAttackedEnemy.transform.position);
+        if (currAttackedEnemy != null) 
+            moveShadowCloneToPoint(currAttackedEnemy.transform.position);
         clearTrajectoryPoints();
     }
     private IEnumerator AttackEnemy(Enemy enemy) {
         float timer = 0f;
-        
+
         enemy.onEnemyDeath += HandleEnemyDeath;
 
         while (timer < enemyAttackTaimer)
@@ -155,7 +158,7 @@ public class AbilityShadowCloneScript : MonoBehaviour
             if (enemy == null || enemy.isDead) break;
 
             enemy.TakeDamage(cloneDamage);
-            Debug.Log("Shadow clone attack");
+            //Debug.Log("Shadow clone attack");
             yield return new WaitForSeconds(attackTickRate);
 
             timer += attackTickRate;
@@ -169,17 +172,20 @@ public class AbilityShadowCloneScript : MonoBehaviour
             StartCoroutine(RemoveEnemy(enemy));
         }
     }
-    private IEnumerator RemoveEnemy(Enemy enemy) { 
+    private IEnumerator RemoveEnemy(Enemy enemy) {
         yield return new WaitForSeconds(enemyRemoveTaimer);
         if (enemy != null)
-                recentAttackedEnemies.Remove(enemy);
+            recentAttackedEnemies.Remove(enemy);
     }
-
-
     private void HandleEnemyDeath(Enemy enemy)
     {
         if (enemy == null)
             return;
+        player.AddXP(enemy.xp);
         recentAttackedEnemies.Remove(enemy);
+    }
+    public void SetPlayer(Player player) { 
+        if (player == null) return;
+        this.player = player;
     }
 }
