@@ -109,7 +109,8 @@ MonoBehaviour:
   pointMaxTimer: 0.3
   maxDuration: 6
   speed: 2
-  enemyRemoveTaimer: 1
+  enemyRemoveTaimer: 2
+  enemyAttackTaimer: 1
   pointPrefab: {fileID: 2567578427124057046, guid: baef822f7bf71fb44a6fa633f5b739d7, type: 3}
 --- !u!58 &2987864310449380776
 CircleCollider2D:

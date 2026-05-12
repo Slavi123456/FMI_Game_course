@@ -12,7 +12,6 @@ public class Player : MonoBehaviour
     private PlayerMovementScript move;
     private PlayerShadowSkillScript skill;
     private PlayerState state;
-
     void Start()
     {
         move = GetComponent<PlayerMovementScript>();
