@@ -2,40 +2,43 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(TaimerComponent))]
+[RequireComponent(typeof(MousePositionProvider))]
 public class PlayerShadowSkillScript : MonoBehaviour
 {
     public GameObject shadowPrefab;
-    public float maxTimer = 10.0f;
     
     private bool canBeActivated = true;
-   
+    private TaimerComponent abilityCooldown;
+    private MousePositionProvider mousePositionRecorder;
+
+    private void Awake()
+    {
+        abilityCooldown = GetComponent<TaimerComponent>();
+        abilityCooldown.OnFinished += OnCooldownFinished;
+        mousePositionRecorder = GetComponent<MousePositionProvider>();
+    }
     public void handleShadowClone(Player player) {
         if (canBeActivated)
         {
             canBeActivated = false;
-            //Debug.Log("Activate shadow clone");
-            Vector2 mouseScreenPos = Mouse.current.position.ReadValue();
-            Vector3 worldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
-            worldPos.z = 0f;
-            
-            GameObject clone = Instantiate(shadowPrefab, worldPos, Quaternion.identity);
-            AbilityShadowCloneScript abilityScript = clone.GetComponent<AbilityShadowCloneScript>();
-            abilityScript.SetPlayer(player);
-            abilityScript.onFinished = () => {
-                player.SetState(Player.PlayerState.Normal);
-            };
-            
-            StartCoroutine(RunAbility(player));
+
+            GameObject clone = Instantiate(shadowPrefab, mousePositionRecorder.GetPosition(), Quaternion.identity);
+            clone.GetComponent<CloneCombatComponent>().SetOwner(player);
+
+            //AbilityShadowCloneController abilityScript = clone.GetComponent<AbilityShadowCloneController>();
+            ////abilityScript.SetPlayer(player);
+            //abilityScript.onFinished = () => {
+            //    player.state = Player.PlayerState.Normal;
+            //};
+
+            abilityCooldown.StartTimer();
             return;
         }
         Debug.Log("Shadow clone ability is not ready");
-        player.SetState(Player.PlayerState.Normal);
     }
 
-    IEnumerator RunAbility(Player player) { 
-        yield return new WaitForSeconds(maxTimer);
-
-        Debug.Log("Ability is active");
+    public void OnCooldownFinished() {
         canBeActivated = true;
     }
 }

@@ -2,86 +2,59 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(XpComponent))]
+[RequireComponent(typeof(HealthComponent))]
+[RequireComponent(typeof(InputProvider))]
+[RequireComponent(typeof(MovementComponent))]
+[RequireComponent(typeof(PlayerAnimationComponent))]
 public class Player : MonoBehaviour
 {
-    public enum PlayerState { 
-        Normal,
-        UsingAbility
-    }
-    public InputActionReference button;
-    
-    private PlayerMovementScript move;
-    private PlayerShadowSkillScript skill;
-    private PlayerState state;
-    private bool isInvisible = false;
-    private int level = 0;
 
-    public int health = 4;
-    public float invisibleTaimer = 2.0f;
-    public int currentXP = 0;
-    public int currentXPthreshold = 20;
+    //public enum PlayerState {
+    //    Normal,
+    //    UsingAbility
+    //}
+
+    public XpComponent XP { get; private set; }
+    public HealthComponent Health { get; private set; }
+    private InputProvider Input;
+    private MovementComponent Movement;
+    private PlayerShadowSkillScript skill;
+    private PlayerAnimationComponent playerAnimation;
+    //public PlayerState state { get; set;  }
+    
+
+    private void Awake() {
+        skill = GetComponent<PlayerShadowSkillScript>();
+        XP = GetComponent<XpComponent>();
+        Health = GetComponent<HealthComponent>();
+        Health.OnDeath += HandleDeath;
+        Input = GetComponent<InputProvider>();
+        Movement = GetComponent<MovementComponent>();
+        playerAnimation = GetComponent<PlayerAnimationComponent>();
+    }
+
     void Start()
     {
-        move = GetComponent<PlayerMovementScript>();
-        skill = GetComponent<PlayerShadowSkillScript>();
-        Debug.Log("Player skill is activated with \"E\" ");
+        GameLogger.Log(this, $"{gameObject} skill is activated with \"E\" ");
     }
-    // Update is called once per frame
     void Update()
     {
-        if (button == null)
+        if (Input.isAbilityActivated)
         {
-            return;
-        }
-        if (button.action.WasPressedThisFrame() && state == PlayerState.Normal)
-        {
-            move.stopMovement();
-            state = PlayerState.UsingAbility;
             skill.handleShadowClone(this);
-            return;
-        }
-        else if (state == PlayerState.Normal)
-        {
-            move.handleMovement();
         }
     }
-
-    public void SetState(PlayerState newState) {
-        state = newState;
+    private void FixedUpdate()
+    {
+        Movement.MoveDirection(Input.moveDirection);
+        playerAnimation.UpdateMovementAnim(Input.moveDirection);
     }
-    public void TakeDamage() {
-        if (isInvisible)
-        {
-            return;
-        }
-        health -= 1;
-
-        if (health <= 0) {
-            Debug.Log("Player died");
-            #if UNITY_EDITOR
-                        UnityEditor.EditorApplication.isPlaying = false;
-            #else
-                Application.Quit();
-            #endif
-        }
-
-        isInvisible = true;
-        Debug.Log("Player health: " + health);
-        StartCoroutine(InvisibleTaimer());
-    }
-    private IEnumerator InvisibleTaimer() {
-        yield return new WaitForSeconds(invisibleTaimer);
-
-        isInvisible = false;
-    }
-
-    public void AddXP(int xp) {
-        this.currentXP += xp;
-        Debug.Log($"Player current xp: {currentXP}");
-
-        if (this.currentXP >= this.currentXPthreshold) { 
-            this.level += 1;
-            Debug.Log($"Player LEVEL UP: {this.level}");
-        }
+    private void HandleDeath(){
+        #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+        #else
+                            Application.Quit();
+        #endif
     }
 }

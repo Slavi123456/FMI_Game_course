@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 3394705757321931579}
   - component: {fileID: 545392699706249853}
   - component: {fileID: 3993647423859402061}
+  - component: {fileID: 6729468642894906012}
+  - component: {fileID: 8650053591665282806}
+  - component: {fileID: 9026242900878336100}
   - component: {fileID: 2266740907366733688}
   - component: {fileID: 923022781600069087}
   m_Layer: 8
@@ -130,6 +133,46 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.15
+--- !u!114 &6729468642894906012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143858231480870789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dbc297e60fa2748b4647afe873440d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StatsComponent
+  moveSpeed: 1
+  damage: 1
+--- !u!114 &8650053591665282806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143858231480870789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a98a752f7d36cc4cba63c76dc5547d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementComponent
+--- !u!114 &9026242900878336100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143858231480870789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dae0e57fa52ffec4c9485220d9c7ca47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthComponent
+  maxHealth: 50
+  invincibleTimer: 0
 --- !u!114 &2266740907366733688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dc7120b5a5163441b64aa3f77d42a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  health: 50
+  xp: 10
 --- !u!50 &923022781600069087
 Rigidbody2D:
   serializedVersion: 5

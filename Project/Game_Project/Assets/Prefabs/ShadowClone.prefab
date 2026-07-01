@@ -13,6 +13,16 @@ GameObject:
   - component: {fileID: 3402621719632078374}
   - component: {fileID: 2987864310449380776}
   - component: {fileID: 7825060717254845781}
+  - component: {fileID: 4967000013154631849}
+  - component: {fileID: 835447742331134428}
+  - component: {fileID: 7983631271486886206}
+  - component: {fileID: 2089829440165294884}
+  - component: {fileID: 5633817170706053220}
+  - component: {fileID: 4382676556821433196}
+  - component: {fileID: 4291513042342558614}
+  - component: {fileID: 7005604721637571492}
+  - component: {fileID: 7167965954630425002}
+  - component: {fileID: 5996103854547973172}
   m_Layer: 0
   m_Name: ShadowClone
   m_TagString: Untagged
@@ -106,12 +116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad4cf128c9cb8dc49a47470f21561d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  pointMaxTimer: 0.3
-  maxDuration: 6
-  speed: 2
-  enemyRemoveTaimer: 2
-  enemyAttackTaimer: 1
-  pointPrefab: {fileID: 2567578427124057046, guid: baef822f7bf71fb44a6fa633f5b739d7, type: 3}
 --- !u!58 &2987864310449380776
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -175,3 +179,132 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4967000013154631849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dbc297e60fa2748b4647afe873440d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StatsComponent
+  moveSpeed: 2
+  damage: 10
+--- !u!114 &835447742331134428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8990491dab6a2408bb4e69e1b1bffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MousePositionProvider
+--- !u!114 &7983631271486886206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a98a752f7d36cc4cba63c76dc5547d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementComponent
+--- !u!114 &2089829440165294884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccecdb2e091447d44bc2d26539bce9de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClonePathRecorderComp
+--- !u!114 &5633817170706053220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21aa49cb0c79cf4697b35c893aeeeef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClonePathFollower
+--- !u!114 &4382676556821433196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5453818fe98ceb146b01c299fbec7a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClonePathVisualizer
+  pointPrefab: {fileID: 2567578427124057046, guid: baef822f7bf71fb44a6fa633f5b739d7, type: 3}
+--- !u!114 &4291513042342558614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75560f41e7b23cd4b9471283761de2a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PathSamplerComponent
+  sampleRate: 0.3
+--- !u!114 &7005604721637571492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec3252a4d3c29545a74ec5622fdfb55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LifetimeComponent
+  lifetimeDuration: 6
+--- !u!114 &7167965954630425002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7958e77726ea80448b1f8dad4391586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AttackComponent
+--- !u!114 &5996103854547973172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7187478214268777873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f26437efafa37340a879001f9308e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CloneCombatComponent
+  maxEnemyAttacksPerAttack: 3
+  attackTickRate: 0.3
+  enemyRemoveTaimer: 1.5
+  attackRangeThreshold: 0.2

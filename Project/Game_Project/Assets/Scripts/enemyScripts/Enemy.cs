@@ -1,38 +1,39 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+[RequireComponent(typeof(AttackComponent))]
 public class Enemy : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public bool isDead { get; private set; }
-    public float health = 50.0f;
     public int xp = 10;
     public UnityAction<Enemy> onEnemyDeath;
-    public void TakeDamage(float damage) {
-        if (isDead) return; 
-        if (damage < 0.0) return;
 
-        this.health -= damage;
-        Debug.Log($"Enemy current health {this.health}");
-        if(health <= 0) {
-            KillEnemy();    
-        }
+    private AttackComponent attack;
+    public HealthComponent Health { get; private set; }
+    private void Awake()
+    {
+       Health = GetComponent<HealthComponent>();
+       Health.OnDeath += this.OnDeath;
+       attack = GetComponent<AttackComponent>();
 
     }
-
-    public void KillEnemy() {
+    public void OnDeath() {
         onEnemyDeath?.Invoke(this);
         //Debug.Log("Enemy died");
         Destroy(gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    //This could be made into AttackComponent
+    private void OnTriggerStay2D(Collider2D other)
     {
+        
+        //This line could be changed to HealthComponent
+        //for the enemies to attack everything
         Player player = other.GetComponent<Player>();
 
         if (player != null)
         {
-            player.TakeDamage();
+            attack.Attack(player.Health);
         }
     }
 }
