@@ -7,13 +7,21 @@ public class MovementComponent : MonoBehaviour
 {
     private StatsComponent stats;
     private Rigidbody2D objRigidbody;
-    public void Awake()
+
+    public bool HasReachDestination { get; private set; }
+    private void Awake()
     {
         stats = gameObject.GetComponent<StatsComponent>();
         objRigidbody = gameObject.GetComponent<Rigidbody2D>();
     }
+    private void Start()
+    {
+        HasReachDestination = true;
+    }
     public void MoveTo(Vector2 target) {
+        this.HasReachDestination = false;
         objRigidbody.MovePosition(target);
+        this.HasReachDestination = true;   
     }
 
     public void MoveDirection(Vector2 direction)

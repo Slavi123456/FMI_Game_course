@@ -141,6 +141,8 @@ GameObject:
   - component: {fileID: 336399645}
   - component: {fileID: 336399649}
   - component: {fileID: 336399648}
+  - component: {fileID: 336399650}
+  - component: {fileID: 336399651}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -415,6 +417,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TaimerComponent
   duration: 6
+--- !u!95 &336399650
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336399635}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 36d6789e1e5c56d4dae5ef6ebb360a91, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &336399651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336399635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab93790f4dee8541b4aa7ffee8c5762, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimationComponent
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4782,11 +4818,38 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 794706593}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 330253ce59c3d7d40a086d0cdc1a862c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyLineMovement
+--- !u!114 &794706603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794706593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3697c3a40f62cf8499aba2a82fb852ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FrogJumpMovement
+--- !u!114 &794706610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794706593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0de567c6c8d8e4a9ffbc8964242e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpComponent
+  jumpTakeOffTime: 0.1
+  jumpDuration: 0.6
+  jumpLandingTime: 0.1
 --- !u!1001 &817271968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5196,6 +5259,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8650053591665282806, guid: 6b51af1741c25fd42ae1d75b76949981, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5203,6 +5270,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 143858231480870789, guid: 6b51af1741c25fd42ae1d75b76949981, type: 3}
       insertIndex: 2
       addedObject: {fileID: 794706599}
+    - targetCorrespondingSourceObject: {fileID: 143858231480870789, guid: 6b51af1741c25fd42ae1d75b76949981, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 794706610}
+    - targetCorrespondingSourceObject: {fileID: 143858231480870789, guid: 6b51af1741c25fd42ae1d75b76949981, type: 3}
+      insertIndex: 8
+      addedObject: {fileID: 794706603}
   m_SourcePrefab: {fileID: 100100000, guid: 6b51af1741c25fd42ae1d75b76949981, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

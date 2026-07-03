@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|c:\\proekti\\uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u043D\u0430\u0438\u0433\u0440\u0438\\rep\\project\\game_project\\assets\\scripts\\playercomponent\\playeranimationcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|c:\\proekti\\uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u043D\u0430\u0438\u0433\u0440\u0438\\rep\\project\\game_project\\assets\\scripts\\enemyscripts\\frog\\froganimationcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\frog\\froganimationcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\assets\\scripts\\playercomponent\\playeranimationcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercomponent\\playeranimationcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|c:\\proekti\\uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u043D\u0430\u0438\u0433\u0440\u0438\\rep\\project\\game_project\\assets\\scripts\\components\\taimercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\taimercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\assets\\scripts\\enemyscripts\\enemylinemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyscripts\\enemylinemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|c:\\proekti\\uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u043D\u0430\u0438\u0433\u0440\u0438\\rep\\project\\game_project\\assets\\scripts\\playershadowskillscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershadowskillscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\assets\\scripts\\components\\jumpcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\jumpcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|c:\\proekti\\uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u043D\u0430\u0438\u0433\u0440\u0438\\rep\\project\\game_project\\assets\\scripts\\abilityshadowclonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\assets\\scripts\\components\\movementcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\components\\movementcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\assets\\scripts\\abilityshadowclonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abilityshadowclonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|c:\\proekti\\uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u043D\u0430\u0438\u0433\u0440\u0438\\rep\\project\\game_project\\assets\\scripts\\clonecomponents\\pathsampler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clonecomponents\\pathsampler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B1114E5-BD22-60DE-F13B-E59475A853C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,67 +47,87 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerAnimationComponent.cs",
-              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
-              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FrogAnimationComponent.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T09:23:43.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaimerComponent.cs",
-              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\Components\\TaimerComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\TaimerComponent.cs",
-              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\Components\\TaimerComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\TaimerComponent.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T08:49:02.046Z",
+              "WhenOpened": "2026-07-03T05:28:36.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerShadowSkillScript.cs",
-              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\PlayerShadowSkillScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerShadowSkillScript.cs",
-              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\PlayerShadowSkillScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerShadowSkillScript.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Title": "EnemyLineMovement.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\EnemyLineMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\enemyScripts\\EnemyLineMovement.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\EnemyLineMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\enemyScripts\\EnemyLineMovement.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T08:48:20.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T20:10:36.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovementComponent.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\Components\\MovementComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\MovementComponent.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\Components\\MovementComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\MovementComponent.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T16:00:39.754Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "JumpComponent.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\Components\\JumpComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\JumpComponent.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\Components\\JumpComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\JumpComponent.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T10:25:07.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AbilityShadowCloneController.cs",
               "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\AbilityShadowCloneController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AbilityShadowCloneController.cs",
               "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\AbilityShadowCloneController.cs",
               "RelativeToolTip": "Assets\\Scripts\\AbilityShadowCloneController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T08:46:10.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T10:24:44.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PathSampler.cs",
-              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\cloneComponents\\PathSampler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\cloneComponents\\PathSampler.cs",
-              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\cloneComponents\\PathSampler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\cloneComponents\\PathSampler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAArAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T15:47:15.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T09:54:43.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerAnimationComponent.cs",
+              "DocumentMoniker": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
+              "ToolTip": "C:\\Proekti\\Uni\\3kurs\\\u043B\u0435\u0442\u0435\u043D\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u0430\u043D\u0435\u041D\u0430\u0418\u0433\u0440\u0438\\rep\\Project\\Game_Project\\Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T09:23:43.244Z"
             }
           ]
         },

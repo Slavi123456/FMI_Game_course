@@ -64,9 +64,11 @@
     <Compile Include="Assets\Scripts\Components\XpComponent.cs" />
     <Compile Include="Assets\Scripts\cloneComponents\ClonePathRecorderComp.cs" />
     <Compile Include="Assets\Scripts\Components\StatsComponent.cs" />
+    <Compile Include="Assets\Scripts\enemyScripts\frog\FrogAnimationComponent.cs" />
     <Compile Include="Assets\Scripts\InputProvider.cs" />
     <Compile Include="Assets\Scripts\cloneComponents\PathSampler.cs" />
     <Compile Include="Assets\Scripts\Components\MousePositionProvider.cs" />
+    <Compile Include="Assets\Scripts\enemyScripts\frog\frogJumpMovement.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GameLogger.cs" />
     <Compile Include="Assets\Scripts\Components\AttackComponent.cs" />
@@ -76,6 +78,7 @@
     <Compile Include="Assets\Scripts\Components\MovementComponent.cs" />
     <Compile Include="Assets\Scripts\cloneComponents\CloneCombatComponent.cs" />
     <Compile Include="Assets\Scripts\playerComponent\PlayerAnimationComponent.cs" />
+    <Compile Include="Assets\Scripts\Components\JumpComponent.cs" />
     <Compile Include="Assets\Scripts\enemyScripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\PlayerShadowSkillScript.cs" />
     <Compile Include="Assets\Scripts\Components\LifetimeComponent.cs" />
