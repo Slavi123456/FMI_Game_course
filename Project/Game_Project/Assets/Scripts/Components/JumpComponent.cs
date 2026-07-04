@@ -13,7 +13,8 @@ class JumpComponent: MonoBehaviour {
     private MovementComponent move;
     public JumpState jumpState { get; private set; }
     public float Progress { get; private set; }
-    public bool IsJumping => jumpState == JumpState.Idle;
+    public bool IsJumping => jumpState != JumpState.Idle;
+    public Vector2 JumpDirection { get; private set; }
 
     [Header("Jump")]
     public float jumpTakeOffTime = 0.1f;
@@ -22,10 +23,13 @@ class JumpComponent: MonoBehaviour {
 
     private void Awake() {
         this.move = GetComponent<MovementComponent>();
+        JumpDirection = new Vector2();
     }
+
     public void Jump(Vector2 destination) {
         if (IsJumping) return;
-        
+        Vector2 start = transform.position;
+        JumpDirection = (destination - start).normalized;
         StartCoroutine(Jumping(destination));
     }
     private IEnumerator Jumping(Vector2 destination)
@@ -38,11 +42,13 @@ class JumpComponent: MonoBehaviour {
         this.jumpState = JumpState.Jump;
         //this.move.MoveDirection(direction);
         float timer = 0.0f;
+        Vector2 startPosition = (Vector2)transform.position;
         while (timer < jumpDuration) { 
             timer += Time.deltaTime;
             Progress = Mathf.Clamp01(timer / jumpDuration);
 
-            move.MoveTo(Vector2.Lerp((Vector2)transform.position, destination, Progress));
+            
+            move.MoveTo(Vector2.Lerp(startPosition, destination, Progress));
 
             yield return null;
         }

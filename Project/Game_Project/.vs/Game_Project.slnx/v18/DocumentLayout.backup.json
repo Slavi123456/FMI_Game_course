@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\Components\\JumpComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Components\\JumpComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\frogJumpMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\enemyScripts\\frog\\frogJumpMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\cloneComponents\\CloneCombatComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\cloneComponents\\CloneCombatComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerAnimationComponent.cs",
+              "DocumentMoniker": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
+              "ToolTip": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\playerComponent\\PlayerAnimationComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T16:48:17.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CloneCombatComponent.cs",
+              "DocumentMoniker": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\cloneComponents\\CloneCombatComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\cloneComponents\\CloneCombatComponent.cs",
+              "ToolTip": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\cloneComponents\\CloneCombatComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\cloneComponents\\CloneCombatComponent.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAwwHcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:38:06.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrogVisualComponent.cs",
+              "DocumentMoniker": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs",
+              "ToolTip": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:37:43.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrogAnimationComponent.cs",
+              "DocumentMoniker": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs",
+              "ToolTip": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\enemyScripts\\frog\\FrogAnimationComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:24:43.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JumpComponent.cs",
+              "DocumentMoniker": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\Components\\JumpComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\JumpComponent.cs",
+              "ToolTip": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\Components\\JumpComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Components\\JumpComponent.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:20:52.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frogJumpMovement.cs",
+              "DocumentMoniker": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\frogJumpMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\enemyScripts\\frog\\frogJumpMovement.cs",
+              "ToolTip": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\frogJumpMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\enemyScripts\\frog\\frogJumpMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:18:21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrogVisualComponent.cs",
+              "DocumentMoniker": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs",
+              "ToolTip": "D:\\slawi film\\SlaviUnity\\uni-project\\FMI_Game_course\\Project\\Game_Project\\Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\enemyScripts\\frog\\FrogVisualComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T14:40:36.377Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

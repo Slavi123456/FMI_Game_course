@@ -1,41 +1,38 @@
 using UnityEngine;
 
-
-class FrogAnimationComponent : MonoBehaviour { 
-    private SpriteRenderer spriteRenderer;
-    private JumpComponent jumpComponent;
+[RequireComponent(typeof(Animator))]
+public class FrogAnimationComponent : MonoBehaviour
+{
     private Animator animator;
+    private JumpComponent jump;
 
-    public Sprite fallSprite;
-    public Sprite jumpSprite;
-    public AnimationClip idleAnim;
-    private void Awake()
+    private JumpComponent.JumpState previousState;
+    private SpriteRenderer spriteRenderer;
+    private static readonly int TakeOff = Animator.StringToHash("TakeOff");
+    
+    private void Awake ()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        jumpComponent = GetComponent<JumpComponent>();  
         animator = GetComponent<Animator>();
+        jump = GetComponentInParent<JumpComponent>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        previousState = jump.jumpState;
     }
 
-    public void UpdateMovement()
+    
+    void Update()
     {
-        switch (jumpComponent.jumpState) {
-            case JumpComponent.JumpState.TakeOff:
-                spriteRenderer.sprite = jumpSprite;
-                break;
-            case JumpComponent.JumpState.Jump:
-                
-                break;
-                break;
-            case JumpComponent.JumpState.Land:
-                spriteRenderer.sprite = fallSprite;
-                //make through a sin curve a spirte up offset
-                break;
-            case JumpComponent.JumpState.Idle:
-                //play anim clip
-                break;
-            default:
-                break;
+        if (previousState == jump.jumpState) return;
+
+        previousState = jump.jumpState;
+        if (jump.JumpDirection.x > 0)
+            spriteRenderer.flipX = true;
+        else if (jump.JumpDirection.x < 0)
+            spriteRenderer.flipX = false;
+
+        if (jump.jumpState == JumpComponent.JumpState.TakeOff)
+        {
+            animator.SetTrigger(TakeOff);
         }
     }
-
 }
